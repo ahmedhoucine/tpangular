@@ -4,7 +4,7 @@ import { ColorChangerComponent } from "./color-changer/color-changer.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ColorChangerComponent],
+  imports: [ ColorChangerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -8,6 +8,7 @@
   #colorInput
   type="text"
   placeholder="Entrez une couleur"
-  (input)="changeColor(colorInput.value)"
+  [(ngModel)]="inputValue"
+  (input)="changeColor(inputValue)"
 />
-<button (click)="resetColor()">Réinitialiser la couleur</button>
+<button (click)="resetColor(colorInput)">Réinitialiser la couleur</button>
